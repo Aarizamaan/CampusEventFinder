@@ -28,20 +28,19 @@
 ---
 
 ## 📂 Project Structure
-
 campus-events/
-├── src/
-│ ├── components/ # Reusable UI components
-│ ├── contexts/ # Auth, Theme, and Event context providers
-│ ├── pages/ # Route pages (Home, Add Event, Admin)
-│ ├── utils/ # Utility functions
-│ └── main.tsx # App entry
-├── public/
-├── supabase/ # SQL migrations
-├── .env # Environment variables
-├── tailwind.config.js # Tailwind setup
-├── tsconfig.json # TypeScript config
-└── vite.config.ts # Vite config
+├── src/                         # Source files
+│   ├── components/              # Reusable UI components
+│   ├── contexts/                # Context providers (Auth, Theme, Event)
+│   ├── pages/                   # Route-based pages (Home, Add Event, Admin)
+│   ├── utils/                   # Utility functions
+│   └── main.tsx                 # Main entry point (App component)
+├── public/                      # Public assets (images, favicon, etc.)
+├── supabase/                    # SQL migrations and Supabase-related files
+├── .env                         # Environment variables (API keys, URLs, etc.)
+├── tailwind.config.js           # Tailwind CSS configuration
+├── tsconfig.json                # TypeScript configuration
+└── vite.config.ts               # Vite configuration
 
 ---
 
