@@ -1,6 +1,6 @@
-# 🎓 CampusEvents
+# 🎓 CampusEventFinder
 
-**CampusEvents** is a modern web application designed to streamline event management in college campuses. Built with **React**, **TypeScript**, **Supabase**, and **TailwindCSS**, it provides both students and administrators a seamless experience to discover, add, and manage campus events.
+**CampusEventFinder** is a modern web application designed to streamline event management in college campuses. Built with **React**, **TypeScript**, **Supabase**, and **TailwindCSS**, it provides both students and administrators a seamless experience to discover, add, and manage campus events.
 
 ---
 
