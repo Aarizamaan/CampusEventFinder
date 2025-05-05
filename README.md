@@ -28,4 +28,36 @@
 ---
 
 ## 📂 Project Structure
+campus-events/
+├── src/
+│ ├── components/ # Reusable UI components
+│ ├── contexts/ # Auth, Theme, and Event context providers
+│ ├── pages/ # Route pages (Home, Add Event, Admin)
+│ ├── utils/ # Utility functions
+│ └── main.tsx # App entry
+├── public/
+├── supabase/ # SQL migrations
+├── .env # Environment variables
+├── tailwind.config.js # Tailwind setup
+├── tsconfig.json # TypeScript config
+└── vite.config.ts # Vite config
+
+---
+
+## 🧪 Local Development
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/subh9m/CampusEvents.git
+cd CampusEvents
+npm install
+Create a .env file in the root with:
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_anon_key
+npm run dev
+
+
+
+
+
 
