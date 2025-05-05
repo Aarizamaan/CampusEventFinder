@@ -28,6 +28,7 @@
 ---
 
 ## 📂 Project Structure
+
 campus-events/
 ├── src/
 │ ├── components/ # Reusable UI components
