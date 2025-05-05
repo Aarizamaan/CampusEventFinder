@@ -25,22 +25,6 @@
 | State Mgmt   | React Context API             |
 | Deployment   | GitHub + Vercel (or Netlify)  |
 
----
-
-## 📂 Project Structure
-campus-events/
-├── src/                         # Source files
-│   ├── components/              # Reusable UI components
-│   ├── contexts/                # Context providers (Auth, Theme, Event)
-│   ├── pages/                   # Route-based pages (Home, Add Event, Admin)
-│   ├── utils/                   # Utility functions
-│   └── main.tsx                 # Main entry point (App component)
-├── public/                      # Public assets (images, favicon, etc.)
-├── supabase/                    # SQL migrations and Supabase-related files
-├── .env                         # Environment variables (API keys, URLs, etc.)
-├── tailwind.config.js           # Tailwind CSS configuration
-├── tsconfig.json                # TypeScript configuration
-└── vite.config.ts               # Vite configuration
 
 ---
 
